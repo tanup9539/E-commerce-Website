@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Page</title>
+    <style>
+        body{
+            background-image: url("contact.jpeg");
+            font-family:Cambria,Arial;
+            background-color: #efd9f7;
+            margin:0;
+            padding:0;
+            display:flex;
+            justify-content: center;
+            height: 100vh;
+            opacity: 80%;
+        }
+        table{
+            margin-top:50px;
+            border:1px solid rgb(183, 135, 185);
+            border-radius: 10px;
+            background-color: white;
+            padding: 20px;
+            box-shadow:4px 5px rgba(0,0,0,0.1);
+        }
+        #heading{
+            text-align:center;
+            font-size:25px;
+            font-weight: bold;
+            color:black;
+        }
+        td{
+            padding: 10px;
+            font-size: 16px;
+            color:#333333;
+        }
+
+        input[type="text"], input[type="number"], input[type="email"], input[type="password"]{
+            width: 100%;
+            padding:8px;
+        }
+
+        button{
+            padding:10px;
+            background-color:rgb(203, 203, 203);
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background-color:black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="contactUs" action="#" method="post">
+        <table>
+            <tr>
+                <td id="heading" colspan="2">Contact Us</td>
+            </tr>
+            <tr>
+                <td><label for="name">Username👤</label>
+                    <input type="text" id="name" name="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mb">Mobile Number📞</label>
+                    <input type="number" id="mb" name="mobileno" maxlength="10" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email✉️</label>
+                    <input type="email" id="email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pass" id="password">Password🔒</label>
+                    <input type="password" id="pass" name="pass" size="17" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="confirmpass" id="password">Confirm Password</label>
+                    <input type="password" id="pass" name="pass" size="17" required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                   <button>Register</button>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+    
+</body>
+</html>
