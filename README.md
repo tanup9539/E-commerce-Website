@@ -1,2 +1,2 @@
 # E-commerce-Website
-Includes html, css and javascript
+Include html, css and javascript
